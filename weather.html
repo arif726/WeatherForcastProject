@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="./weather.css" />
+    <title>Weather Monitor</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Current weather info -->
+      <div class="current-info">
+        <!-- Date time info -->
+        <div class="time-date-container" id="time-date-container">
+          <div class="time" id="time">10:36 </div>
+          <div class="date" id="date">Friday, 17 February</div>
+          <!-- Other weather info -->
+          <div class="others-info" id="current-weather-items">
+            <div class="weather-items">
+              <div>Humidity</div>
+              <div>95.2%</div>
+            </div>
+            <div class="weather-items">
+              <div>Pressure</div>
+              <div>121</div>
+            </div>
+            <div class="weather-items">
+              <div>Wind speed</div>
+              <div>222</div>
+            </div>
+          </div>
+        </div>
+        <div class="place">
+          <div class="time-zone" id="time-zone">
+            <div class="country" id="country">Asia/Dhaka</div>
+            <div class="latitude" id="latitude">DHK</div>
+          </div>
+        </div>
+      </div>
+      <!-- Weatherforcast -->
+      <div class="weatherforcast">
+        <div class="today" id="today-update">
+          <img
+            src="http://openweathermap.org/img/wn/10d@4x.png"
+            alt=""
+            id="weather-icon"
+          />
+          <div>
+            <div class="day">Friday</div>
+            <div class="day-temp" id="day-temp">Day - 33.0&#176; C</div>
+            <div class="night-temp" id="night-temp">Night - 26.0&#176; C</div>
+          </div>
+        </div>
+        <div class="next-days-forcast" id="next-days-forcast">
+          <div class="weather-items" id="weather-items">
+            <div class="day">Saturday</div>
+            <img
+              src="http://openweathermap.org/img/wn/10d@2x.png"
+              alt=""
+              id="weather-icon"
+            />
+            <div class="day-temp" id="day-temp">Day - 30.0&#176; C</div>
+            <div class="night-temp" id="night-temp">Night - 28.0&#176; C</div>
+          </div>
+          <div class="weather-items" id="weather-items">
+            <div class="day">Sunday</div>
+            <img
+              src="http://openweathermap.org/img/wn/10d@2x.png"
+              alt=""
+              id="weather-icon"
+            />
+            <div class="day-temp" id="day-temp">Day - 30.0&#176; C</div>
+            <div class="night-temp" id="night-temp">Night - 28.0&#176; C</div>
+          </div>
+          <div class="weather-items" id="weather-items">
+            <div class="day">Monday</div>
+            <img
+              src="http://openweathermap.org/img/wn/10d@2x.png"
+              alt=""
+              id="weather-icon"
+            />
+            <div class="day-temp" id="day-temp">Day - 30.0&#176; C</div>
+            <div class="night-temp" id="night-temp">Night - 28.0&#176; C</div>
+          </div>
+          <div class="weather-items" id="weather-items">
+            <div class="day">Tuesday</div>
+            <img
+              src="http://openweathermap.org/img/wn/10d@2x.png"
+              alt=""
+              id="weather-icon"
+            />
+            <div class="day-temp" id="day-temp">Day - 30.0&#176; C</div>
+            <div class="night-temp" id="night-temp">Night - 28.0&#176; C</div>
+          </div>
+          <div class="weather-items" id="weather-items">
+            <div class="day">Wednesday</div>
+            <img
+              src="http://openweathermap.org/img/wn/10d@2x.png"
+              alt=""
+              id="weather-icon"
+            />
+            <div class="day-temp" id="day-temp">Day - 30.0&#176; C</div>
+            <div class="night-temp" id="night-temp">Night - 28.0&#176; C</div>
+          </div>
+          <div class="weather-items" id="weather-items">
+            <div class="day">Thursday</div>
+            <img
+              src="http://openweathermap.org/img/wn/10d@2x.png"
+              alt=""
+              id="weather-icon"
+            />
+            <div class="day-temp" id="day-temp">Day - 30.0&#176; C</div>
+            <div class="night-temp" id="night-temp">Night - 28.0&#176; C</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Link JS -->
+    <script src="./weather.js"></script>
+  </body>
+</html>

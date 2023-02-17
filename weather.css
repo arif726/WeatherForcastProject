@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Poppins:wght@100;200;300;400;500;600&family=Roboto+Mono:wght@200&family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background:url('./img/joel-vodell-1e5G4OUkeKI-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    font-weight: 200;
+    height: 100vh;
+}
+.container{
+    color: #fff;
+}
+.current-info{
+    padding: 20px 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.time-date-container .time{
+    font-size: 70px;
+    font-weight: 200;
+    color: #000;
+}
+.time-date-container #am-pm{
+    font-size: 30px;
+    margin-left: 20px;
+    font-weight: 200;
+    color: #000;
+}
+.time-date-container #date{
+    font-size: 30px;
+    font-weight: 200;
+    color: #000;
+}
+.place{
+    text-align: end;
+}
+.place .country{
+    font-size: 30px;
+    font-weight: 200;
+    color: #000;
+}
+.place .latitude{
+    font-size: 12px;
+    font-weight: 700;
+    color: #000;
+}
+.others-info{
+    display: flex;
+    flex-direction: column;
+    background: rgb(24,24,27,0.6);
+    border-radius: 10px;
+    margin: 10px 0;
+    border: 1px solid #eee;
+    padding: 20px;
+
+}
+.others-info .weather-items{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Weatherforcast */
+
+.weatherforcast{
+    background: rgba(24,24,27,0.8);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    gap: 20px;
+}
+
+.weatherforcast .today{
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding-right: 10px;
+    background: rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.day{
+    text-align: center;
+    background: #3c3c44;
+    padding: 5px 15px;
+    border-radius: 50px;
+}
+
+.weatherforcast .next-days-forcast{
+    display: flex;
+    gap: 20px;
+}
+.weatherforcast .weather-items{
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 5px;
+}
